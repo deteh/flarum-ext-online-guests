@@ -1,6 +1,6 @@
 # Online Guests Widget
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/deteh/online-guests.svg)](https://packagist.org/packages/deteh/online-guests) [![Total Downloads](https://img.shields.io/packagist/dt/deteh/online-guests.svg)](https://packagist.org/packages/deteh/online-guests)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/deteh/flarum-ext-online-guests.svg)](https://packagist.org/packages/deteh/flarum-ext-online-guests) [![Total Downloads](https://img.shields.io/packagist/dt/deteh/flarum-ext-online-guests.svg)](https://packagist.org/packages/deteh/flarum-ext-online-guests)
 
 A [Flarum](http://flarum.org) extension. Guests Online widget
 
@@ -13,13 +13,13 @@ This will also install [Forum Widgets Core](https://github.com/afrux/forum-widge
 Install with composer:
 
 ```sh
-composer require deteh/online-guests:"*"
+composer require deteh/flarum-ext-online-guests:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update deteh/online-guests:"*"
+composer update deteh/flarum-ext-online-guests:"*"
 php flarum migrate
 php flarum cache:clear
 ```
